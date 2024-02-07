@@ -22,8 +22,7 @@ The simulation is controlled by the cursor movement on the screen. Rectangles re
 All of that leads to simulation of the light movement.
 
 
-```obrazki```
-
+![](https://github.com/StainedMentor/RayCast/blob/main/anim.gif)
 The simulation can can be started by running the app.py file.
 
 ## Requirements
