@@ -27,7 +27,6 @@ All of that leads to simulation of the light movement.
 The simulation can can be started by running the main.py file.
 
 ## Requirements
-TODO
 The required packages for this project are listed in the requirements.txt file. To install them, simply run the following command:
 ```
 $ pip install -r requirements.txt
