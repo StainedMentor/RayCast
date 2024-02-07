@@ -27,7 +27,9 @@ mouse_position = (200, 200)
 
 while not window_should_close():
     begin_drawing()
-    clear_background(GRAY)
+    custom_color_bg = Color(35, 42, 54,255)
+
+    clear_background(custom_color_bg)
 
     mouse_position = (get_mouse_x(), get_mouse_y())
 
@@ -42,7 +44,7 @@ while not window_should_close():
                 draw_triangle(mouse_position, point_mask[i].tolist(), point_mask[0].tolist(), Color(255, 255, 255, 255))
 
         for intersect in point_mask:
-            draw_line(mouse_position[0], mouse_position[1], int(intersect[0]), int(intersect[1]), Color(255, 0, 0, 255))
+            draw_line(mouse_position[0], mouse_position[1], int(intersect[0]), int(intersect[1]), Color(104, 27, 143,255))
 
     for box in boxes:
         draw_rectangle_lines(box.x, box.y, box.xlen, box.ylen, get_color(255))
