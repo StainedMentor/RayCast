@@ -33,8 +33,8 @@ $ pip install -r requirements.txt
 ```
 
 ## Authors
-Agnieszka Stromska 188560
-Oliwer Losvik 188629
-Michal Kolada 189729
+Agnieszka Stromska 
+Oliwer Losvik 
+
 
 
